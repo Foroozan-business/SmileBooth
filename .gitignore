@@ -1,0 +1,11 @@
+# Ignore sensitive .env file
+.env
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore macOS .DS_Store files
+.DS_Store
+
+# Ignore zip files
+*.zip
