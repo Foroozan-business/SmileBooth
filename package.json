@@ -1,0 +1,32 @@
+{
+    "name": "smile-booth",
+    "version": "1.0.0",
+    "description": "Smile Booth Application",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Foroozan-Business/SmileBooth.git"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "babel-plugin-transform-remove-console": "^6.9.4"
+    },
+    "keywords": [
+        "smile",
+        "booth",
+        "application"
+    ],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Foroozan-Business/SmileBooth/issues"
+    },
+    "homepage": "https://github.com/Foroozan-Business/SmileBooth#readme"
+}
