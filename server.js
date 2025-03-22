@@ -1,6 +1,5 @@
 const express = require('express');
 const axios = require('axios');
-const bodyParser = require('body-parser');
 const path = require('path');
 
 const app = express();
@@ -10,7 +9,6 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Middleware to handle JSON
-app.use(bodyParser.json());
 app.use(express.json());
 
 // Smile detection endpoint
